@@ -1,0 +1,67 @@
+.description-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.description-page h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description-page img {
+  width: 500px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.description-page p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.description-page .rating {
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 600px; /* Set the desired width for the image */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  text-align: center;
+  padding: 20px;
+  max-width: 500px; /* Set a maximum width for the card content */
+}
+
+.card-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card-content .rating {
+  font-weight: bold;
+}
+
+/* Add any additional styling for the card */
+
+/* Add any additional styling here */

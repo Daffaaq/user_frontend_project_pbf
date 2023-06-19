@@ -1,0 +1,225 @@
+.home{
+    background-color: #0090ff;
+    height: 600px;  
+    position: relative;
+}
+
+.home__banner{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.banner__left{
+    flex: 0.5;
+    text-align: left;    
+    color: #fff;
+ 
+}
+
+.banner__left h1{
+    font-size: 64px;
+    margin: 0;
+    padding-top: 150px;
+    font-family: 'Kurale', serif;
+}
+
+.banner__left p {
+    width: 400px;
+}
+
+.banner__right{
+    position: relative;
+    flex: 0.5;
+}
+
+.banner__right img{
+    width: 500px;
+    position: absolute; 
+    bottom: -200px;
+}
+
+.wave{
+  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+}
+.map{
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+}
+
+.map__title{
+    margin-bottom: 30px;
+}
+
+.leaflet-container{
+    width: 800px;
+    height: 500px;
+}
+
+.favorite{    
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.favorite__title{
+    margin-top: 50px;
+}
+
+.favorite__subtitle{
+    margin-bottom: 30px;
+}
+
+.leaflet-container{
+    margin: auto;
+}
+
+
+.content__img{
+    width:600px;
+    margin-top: 100px; 
+
+}
+
+.content__btn{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn{
+    width: fit-content;
+    padding: 16px 25px;
+    font-size: 20px;
+    border-radius: 25px;
+ 
+}
+
+.btn1{
+    color: #005cb3;
+    background-color: #ffffff;
+}
+
+.btn2{
+    color: #ffffff;
+    background-color: #005cb3;
+
+}
+
+
+.text{
+    margin-left: 100px;
+    padding-left: 40px;
+    font-size: 90px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Architects Daughter', cursive;
+    border-left: 9px solid #ffffff;
+}
+
+.font_t{
+    margin-top: 20px;
+    font-family: 'Kurale', serif;
+}
+
+@media only screen and (max-device-width: 1040px){
+    .banner__right img{
+        width: 80%;
+        position: relative; 
+        bottom: -100px;
+    }
+
+    .banner__left{
+        margin-left: 30px;
+    }
+
+    .banner__left h1{
+        font-size: 52px;
+    }
+    
+    .banner__left p {
+       
+    }
+
+    .wave{
+        display: none;
+    }
+
+    .home{
+       height: 400px;
+    }
+}
+
+@media only screen and (max-device-width: 900px){
+    .banner__right img{
+       
+    }
+
+    .leaflet-container{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-device-width: 720px){
+
+    .home__banner{
+        display: block;
+    }
+    .banner__right{
+        display: none;
+    }
+
+    .banner__left{
+        text-align: center;
+        margin: auto 10px;
+    }
+
+    .banner__left h1{
+        padding-top: 30px;
+    }
+
+    .banner__left p{
+        width: unset;
+    }
+    .home{
+        height: 180px;
+     }
+}
+
+@media only screen and (max-device-width: 600px){
+   .font_t{
+       margin-top: 20px;
+       font-size: 20px;
+       font-family: 'Kurale', serif;
+   }
+    
+   .home{
+       height: unset;
+   }
+
+   .home__banner{
+       padding: 20px 0;
+   }
+
+   .banner__left h1{
+       padding-top: 0;
+   }
+
+
+    
+
+}
+
+@media only screen and (max-device-width: 520px){
+    .leaflet-container{
+        width: 250px;
+        height: 300px;
+    }
+}
+

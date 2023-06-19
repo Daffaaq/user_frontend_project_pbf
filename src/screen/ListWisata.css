@@ -1,0 +1,105 @@
+.listwisata{
+    width: 1300px auto;
+    margin: auto;
+
+}
+
+
+.banner__img{
+    height: 300px; 
+    width: 100%;
+    object-fit: cover;
+    
+}
+.listwisata__search{
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: fit-content;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    bottom: 90px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.listwisata__search input{
+    width: 500px;
+    height: 42.8px;
+    padding: 0 10px;
+    border: 2px solid #005cb3;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+}
+
+.listwisata__search button{
+    border-style: none;
+    background-color: #005cb3;
+    color: #ffffff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.listwisata__item{
+    margin-bottom: 50px;
+}
+
+
+.fa-search{
+    padding: 15px 15px;
+    height: 42.8px;
+    align-items: center;
+}
+
+@media only screen and (max-device-width: 720px){
+    .banner__img{
+        display: none;
+    }    
+
+    .listwisata__search{
+        width: auto;
+        position: unset;
+        box-shadow: unset;
+    }
+}
+
+.custom-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.list-group-item-bordered {
+  border-bottom: 1px solid black;
+  padding: 2.5px;
+}
+
+.card-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.star-icon.gold {
+  color: gold;
+}
+
+.listwisata__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Add margin-bottom for spacing */
+}
+
+.rating-filter {
+  margin-right: 10px; /* Add margin-right for spacing */
+  margin-left: 10px; /* Add margin-right for spacing */
+  width: 150px; /* Adjust the width to your desired size */
+  font-size: 14px; /* Adjust the font-size to your desired size */
+}
+.sort-filter {
+  margin-right: 10px; /* Add margin-right for spacing */
+  width: 150px; /* Adjust the width to your desired size */
+  font-size: 14px; /* Adjust the font-size to your desired size */
+}

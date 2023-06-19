@@ -1,0 +1,13 @@
+.footer{
+    background-color: #ffff;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+@media only screen and (max-device-width: 600px){
+    .footer{
+        display: none;
+        
+    }
+}
